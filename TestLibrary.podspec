@@ -32,6 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'TestLibrary/Classes/**/*'
   
+  s.vendored_frameworks = 'TestFramework.xcframework'
+  
   # s.resource_bundles = {
   #   'TestLibrary' => ['TestLibrary/Assets/*.png']
   # }

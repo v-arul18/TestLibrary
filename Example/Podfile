@@ -1,4 +1,5 @@
 use_frameworks!
+workspace 'TestLibrary.xcworkspace'
 
 platform :ios, '10.0'
 
