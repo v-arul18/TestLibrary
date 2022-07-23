@@ -7,12 +7,16 @@
 //
 
 import UIKit
-
+import TestFramework
 
 class ViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        Printer.helloMessage()
+        Printer.GoogleTest()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

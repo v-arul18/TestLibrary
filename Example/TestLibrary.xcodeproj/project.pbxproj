@@ -10,6 +10,7 @@
 		2E104096288B5F25007F24C0 /* Pods_TestLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B004CBAB1B38E68693BF62F9 /* Pods_TestLibrary_Example.framework */; };
 		2E104097288B5F25007F24C0 /* Pods_TestLibrary_Example.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B004CBAB1B38E68693BF62F9 /* Pods_TestLibrary_Example.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2E104099288B5F26007F24C0 /* Pods_TestLibrary_Tests.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 59EE5D2EF9AE29F54F447E45 /* Pods_TestLibrary_Tests.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		512AA029DF94958BB2027B07 /* Pods_TestLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D772BC99CC82C47EAD7BC71 /* Pods_TestLibrary_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		07D2292D52F8FE0D4F56732E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0D8C37E98EB53B7CE18E05B1 /* Pods-TestLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLibrary_Example.release.xcconfig"; path = "Target Support Files/Pods-TestLibrary_Example/Pods-TestLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2E3CFEB4288BA59A002ACCC4 /* TestFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestFramework.xcframework; path = Pods/TestFramework.xcframework; sourceTree = "<group>"; };
 		2FE01DC50D7CC2092903B75A /* TestLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestLibrary.podspec; path = ../TestLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		543FBA8730169BF0EC3E1571 /* Pods-TestLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLibrary_Example.debug.xcconfig"; path = "Target Support Files/Pods-TestLibrary_Example/Pods-TestLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		55F91FC8012AB5DD6296BD2A /* Pods_TestLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +64,7 @@
 		607FACE51AFB9204008FA782 /* TestLibrary_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLibrary_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6D772BC99CC82C47EAD7BC71 /* Pods_TestLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E37F859A36294ECB8F0B22B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9A1BF7F03F5F185D5BAF40D9 /* Pods-TestLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLibrary_Tests.release.xcconfig"; path = "Target Support Files/Pods-TestLibrary_Tests/Pods-TestLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A0EBBB18FA623C25EB5B1F7C /* Pods-TestLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestLibrary_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TestLibrary_Tests/Pods-TestLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E104096288B5F25007F24C0 /* Pods_TestLibrary_Example.framework in Frameworks */,
+				512AA029DF94958BB2027B07 /* Pods_TestLibrary_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +104,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		2E10409A288B6023007F24C0 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				B004CBAB1B38E68693BF62F9 /* Pods_TestLibrary_Example.framework */,
+				59EE5D2EF9AE29F54F447E45 /* Pods_TestLibrary_Tests.framework */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +122,7 @@
 				607FACD11AFB9204008FA782 /* Products */,
 				0457A333DD3D54027D2867AA /* Pods */,
 				759113AC53EFBFDF77ECF747 /* Frameworks */,
+				2E10409A288B6023007F24C0 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,7 +187,9 @@
 		759113AC53EFBFDF77ECF747 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E3CFEB4288BA59A002ACCC4 /* TestFramework.xcframework */,
 				55F91FC8012AB5DD6296BD2A /* Pods_TestLibrary_Tests.framework */,
+				6D772BC99CC82C47EAD7BC71 /* Pods_TestLibrary_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -252,6 +268,43 @@
 				English,
 				en,
 				Base,
+				de,
+				he,
+				ar,
+				el,
+				ja,
+				uk,
+				es_MX,
+				zh_CN,
+				nb,
+				es,
+				pt_BR,
+				da,
+				it,
+				sk,
+				pt_PT,
+				ms,
+				sv,
+				cs,
+				ko,
+				hu,
+				tr,
+				pl,
+				zh_TW,
+				en_GB,
+				vi,
+				ru,
+				fr_CA,
+				fr,
+				fi,
+				id,
+				nl,
+				th,
+				pt,
+				ro,
+				hr,
+				hi,
+				ca,
 			);
 			mainGroup = 607FACC71AFB9204008FA782;
 			productRefGroup = 607FACD11AFB9204008FA782 /* Products */;
@@ -336,11 +389,21 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TestLibrary_Example/Pods-TestLibrary_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AppAuth/AppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMAppAuth/GTMAppAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleSignIn/GoogleSignIn.framework",
 				"${BUILT_PRODUCTS_DIR}/TestLibrary/TestLibrary.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/TestLibrary/TestFramework.framework/TestFramework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMAppAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleSignIn.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TestLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TestFramework.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

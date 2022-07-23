@@ -1,9 +1,9 @@
 {
   "name": "TestLibrary",
   "version": "0.1.0",
-  "summary": "A short description of TestLibrary.",
+  "summary": "A short description of TestLibrary. This is supposed to be really meaningful",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/vara.arul@onymos.com/TestLibrary",
+  "homepage": "https://github.com/v-arul18/TestLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,12 +12,25 @@
     "vara.arul@onymos.com": "varaarul@umich.edu"
   },
   "source": {
-    "git": "https://github.com/vara.arul@onymos.com/TestLibrary.git",
+    "git": "https://github.com/v-arul18/TestLibrary.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "10.0"
   },
   "source_files": "TestLibrary/Classes/**/*",
-  "vendored_frameworks": "TestFramework/TestFramework.xcframework"
+  "vendored_frameworks": "Example/TestFramework.xcframework",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 i386"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64 i386"
+  },
+  "swift_versions": "5.0",
+  "dependencies": {
+    "GoogleSignIn": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }

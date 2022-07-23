@@ -1,9 +1,23 @@
 PODS:
+  - AppAuth (1.5.0):
+    - AppAuth/Core (= 1.5.0)
+    - AppAuth/ExternalUserAgent (= 1.5.0)
+  - AppAuth/Core (1.5.0)
+  - AppAuth/ExternalUserAgent (1.5.0):
+    - AppAuth/Core
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - GoogleSignIn (6.2.2):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (~> 1.3)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.3.0):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.2)
   - iOSSnapshotTestCase (8.0.0):
     - iOSSnapshotTestCase/SwiftSupport (= 8.0.0)
   - iOSSnapshotTestCase/Core (8.0.0)
@@ -16,7 +30,8 @@ PODS:
     - iOSSnapshotTestCase (~> 8.0)
     - Nimble
   - Quick (2.2.1)
-  - TestLibrary (0.1.0)
+  - TestLibrary (0.1.0):
+    - GoogleSignIn
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -27,7 +42,11 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AppAuth
     - FBSnapshotTestCase
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
     - iOSSnapshotTestCase
     - Nimble
     - Nimble-Snapshots
@@ -38,13 +57,17 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  AppAuth: 80317d99ac7ff2801a2f18ff86b48cd315ed465d
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GoogleSignIn: 3c68388ac221f379676e8f1cb115df3aaf73b93f
+  GTMAppAuth: 4d8f864896f3646f0c33baf38a28362f4c601e15
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
   iOSSnapshotTestCase: a670511f9ee3829c2b9c23e6e68f315fd7b6790f
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   Nimble-Snapshots: ef281b908c604f78c8313587e25ea92c8ab513d7
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
-  TestLibrary: a647c1c47094bb3862177836beb48cc058f3f89f
+  TestLibrary: 5ddef5234a826c6fd19a9fec3b8c786a087352d7
 
-PODFILE CHECKSUM: 3cb68c6a609640267564b28cae1654f270af7f63
+PODFILE CHECKSUM: cde8dfd4790f0f42625e3624e3a3967b6f10d622
 
 COCOAPODS: 1.11.3
